@@ -9,17 +9,17 @@ import ThirdPage from "./components/thirdPage";
 
 const Routes = () => (
   <Switch>
-    <Route to="/">
-      <HomePage />
-    </Route>
-    <Route to="/first">
+    <Route path="/first">
       <FirstPage />
     </Route>
-    <Route to="/second">
+    <Route path="/second">
       <SecondPage />
     </Route>
-    <Route to="/third">
+    <Route path="/third">
       <ThirdPage />
+    </Route>
+    <Route path="/">
+      <HomePage />
     </Route>
   </Switch>
 );

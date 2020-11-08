@@ -24,8 +24,17 @@
   color: white;
 }
 
-.App-link {
+a {
   color: #61dafb;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  padding: 2%;
+  list-style: none;
 }
 
 @keyframes App-logo-spin {
