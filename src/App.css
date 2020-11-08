@@ -33,3 +33,21 @@ div {
   height: 400px;
   background: white;
 }
+
+.my-comp-enter {
+  transform: scale(0);
+}
+
+.my-comp-enter-active {
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.my-comp-exit {
+  transform: scale(0);
+}
+/* 
+my-comp-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s;
+} */
