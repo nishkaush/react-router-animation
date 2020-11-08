@@ -1,5 +1,9 @@
 import React from "react";
 
-const FirstPage = () => <div>I am first page</div>;
+const FirstPage = () => (
+  <div>
+    <h1>First page</h1>
+  </div>
+);
 
 export default FirstPage;

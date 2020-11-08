@@ -5,8 +5,10 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <h1>hahahaha</h1>
+      <section className="App">
+        <br />
+        <h1>React Router Animations</h1>
+        <br />
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -21,8 +23,10 @@ function App() {
             <Link to="/third">Third</Link>
           </li>
         </ul>
-        <Routes />
-      </div>
+        <aside>
+          <Routes />
+        </aside>
+      </section>
     </Router>
   );
 }

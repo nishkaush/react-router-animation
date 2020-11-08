@@ -1,5 +1,9 @@
 import React from "react";
 
-const ThirdPage = () => <div>I am third page</div>;
+const ThirdPage = () => (
+  <div>
+    <h1>Third page</h1>
+  </div>
+);
 
 export default ThirdPage;
